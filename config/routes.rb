@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
   	namespace :v1 do
   		resources :customers
+  		resources :orders
   		get '/customers/:id/orders' => 'customers#orders'
 
   		post '/add_chart' => 'orders#add_chart'
