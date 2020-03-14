@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   		get '/customers/:id/orders' => 'customers#orders'
 
   		post '/add_chart' => 'orders#add_chart'
+
+  		post '/order_product' => 'orders#order_product'
   	end
   end
 end

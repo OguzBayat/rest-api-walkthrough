@@ -9,4 +9,8 @@ class Product < ApplicationRecord
 	def more_than_zero?
 		count > 0
 	end
+
+	def self.decrease_product_count product
+		product.count-1
+	end
 end
