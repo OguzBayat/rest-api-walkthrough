@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Kullanılan Teknolojiler
+* Ruby on Rails
+* MySQL
 
-Things you may want to cover:
+* Kullanılan Gem paketleri [Gemfile](https://github.com/OguzBayat/rest-api-walkthrough/blob/master/Gemfile)
 
-* Ruby version
+Klonla
+bundle, rails db:migrate, rails db:seed, rails s
 
-* System dependencies
+**Testler için**
+rspec
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
