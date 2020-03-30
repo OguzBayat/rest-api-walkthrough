@@ -5,7 +5,7 @@ class Api::V1::OrdersController < ApplicationController
 		product = Product.find(params[:product_id])
 
 		unless product.more_than_zero?
-			return render json: {status: "error", code: 400, message: "Ürün tükenmişasdas."}
+			return render json: {status: "error", code: 400, message: "Ürün tükenmiş."}
 		end
 
 		@order = Order.new(customer: customer, product: product, status: false)
